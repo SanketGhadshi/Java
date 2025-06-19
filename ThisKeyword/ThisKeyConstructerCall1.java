@@ -7,6 +7,7 @@ public class ThisKeyConstructerCall1 {
 		this(5);
 		System.out.println("Run 1st constructor");
 	}
+	
 	ThisKeyConstructerCall1(int a)
 	{
 		this("Sanki");
@@ -20,6 +21,7 @@ public class ThisKeyConstructerCall1 {
 	
 
 	public static void main(String[] args) {
+		
 		ThisKeyConstructerCall1 ab=new ThisKeyConstructerCall1();
 
 	}

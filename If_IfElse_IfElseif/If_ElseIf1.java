@@ -3,7 +3,8 @@ package If_IfElse_IfElseif;
 public class If_ElseIf1 {
 
 	public static void main(String[] args) {
-        int num=1;
+        int num=-2;
+        
         if(num>0)
         {
         	System.out.println("Positive Number");

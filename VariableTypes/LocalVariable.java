@@ -1,15 +1,19 @@
 package VariableTypes;
 
-public class LocalVariable{
-	public static void test() {
+public class LocalVariable
+{
+	public static void test() 
+	{
 		int a=1;     //Local variable only within method body
 		System.out.println(a);
 	}
-	public void test1() {
+	public void test1() 
+	{
 		int b=3;  //Local variable only within method body
 		System.out.println(b);
 	}
-	public static void main(String[] args) {
+	public static void main(String[] args) 
+	{
 		
 		//System.out.println(c);
 		

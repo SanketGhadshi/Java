@@ -13,7 +13,7 @@ public class ForLoop_tableofAnyNo {                      // Table of any number
 		
 	for(int b=1; b<=10 ; b++) {   //Print table of 2
 			
-			System.out.println(t*b);
+			System.out.println(t+ "X" +b +"=" + t*b);
 		}
 	}
 }

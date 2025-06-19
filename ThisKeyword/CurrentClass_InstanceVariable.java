@@ -10,18 +10,17 @@ public class CurrentClass_InstanceVariable {
 		this.rollno=rollno;
 		this.name=name;
 		this.fee=fee;
-		//System.out.println(rollno+" "+name+" "+fee);
+		System.out.println("Calling CurrentClass_InstanceVariable variable : "+rollno+" , "+name+" , "+fee);
 	}
-void display() {
+
+	void display() {
 	int rollno=10;
 	//System.out.println(this.rollno);
 	System.out.println(rollno+" "+name+" "+fee);
 }
 	public static void main(String[] args) {
-	 CurrentClass_InstanceVariable obj=new CurrentClass_InstanceVariable(100,"san",500f);
-      obj.display();
-      obj.display();
-
+	 
+		CurrentClass_InstanceVariable obj=new CurrentClass_InstanceVariable(100,"san",500f);
+        obj.display();
 	}
-
 }

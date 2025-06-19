@@ -2,8 +2,9 @@ package Interface;
 
 public interface  Parent {
 	
-//	Parent() // Interface can't have constuctor
-
+// Interface can't have constuctor	
+//	Parent() 
+	
   public void test1();
   
   abstract void test0();
@@ -12,6 +13,6 @@ public interface  Parent {
 	
 	public static void t()
 	{
-	 System.out.println("t():-Parent class");	
+	 System.out.println(" Method Name: t() is in Parent class");	
 	}
 }

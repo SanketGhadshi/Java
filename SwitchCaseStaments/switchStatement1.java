@@ -5,7 +5,8 @@ public class switchStatement1 {
 	public static void main(String[] args) {//syntax of switch case is :-
 	    
 		   int day=3;                          // switch(Expression) {
-	       switch(day) {                       // case 1:
+	    
+		   switch(day) {                       // case 1:
 	       case 1:                             // # code;  here multiple cases uses
 	    	   System.out.println("Sunday");   // break;  
 	       case 2:

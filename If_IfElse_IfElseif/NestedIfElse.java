@@ -6,16 +6,20 @@ public class NestedIfElse {
           String Un="Sanket";
           String Pwd="Sanket@123"; 
           
-          if(Un=="Sanket") {
-          if(Pwd=="Sanket@123") {
-        	  System.out.println("Login Successfully");
+          if(Un=="Sanket") 
+          {
+             if(Pwd=="Sanket@1230") 
+             {
+        	     System.out.println("Login Successfully");
+             }
+             else 
+             {
+        	     System.out.println("Wrong password");  
+             }
+	      }  
+          else 
+          {
+  	          System.out.println("Wrong Username");  
           }
-          else {
-        	  System.out.println("Wrong password");  
-          }
-	}  
-          else {
-  	  System.out.println("Wrong Username");  
-    }
 	}
 }

@@ -14,5 +14,4 @@ public class ConstructerPassVariableInfo {
 		System.out.println(z.name);
 		System.out.println(z.a);
 	}
-
 }

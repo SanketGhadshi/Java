@@ -6,6 +6,7 @@ public class InstanceVariable {
 	public static void test() {
 		int c=6;         //Static method body,Global var. not access in this method
 		System.out.println(c+":- this is local variable in static method");
+//		System.out.println(this.c); // showing error 
 	}
 	public void test1() {
 		int c=4;        //Non Static method body
@@ -16,6 +17,7 @@ public class InstanceVariable {
 				 
 		InstanceVariable x=new InstanceVariable();
 		x.test1();
+		
 		test();	
 	}
 }

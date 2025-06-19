@@ -4,7 +4,7 @@ public class SwitchStatement {
 
 	public static void main(String[] args) { 
 		   
-		   int day=1;               
+		   int day=93;               
 	       switch(day) {  
 	       
 	       case 1:                             

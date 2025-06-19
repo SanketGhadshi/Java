@@ -2,15 +2,17 @@ package Method;
 
 public class StaticMethod2 {
 	
-	public static void MyClass(){   //Static Method
+	public static void myClass()
+	{   //Static Method
 	    System.out.println("Run");
 	}
-
-	public static void main(String[] args) { // Main Method
+	
+	public static void main(String[] args) 
+	{ // Main Method
 		
 		System.out.println("Good Morning");
 		
-		MyClass(); //reference of static method
+		myClass(); //reference of static method
 	}
 
 }
