@@ -3,18 +3,19 @@ package ImportantProgram;
 public class Palidrome_Sting {
 
 	public static void main(String[] args) {
-		String name="Nitin"; 
-		String m="";
+	
+		String name="RAR"; 
+		String str="";
 	for(int i=name.length()-1; i>=0; i--) {
 		
-		 m=m+name.charAt(i);
+		 str= str + name.charAt(i);
 		 
 	}
-		if(name.equals(m)) {
-		System.out.print(m+" is Palidrome String");
+		if(name.equals(str)) {
+		System.out.print(str+" is Palidrome String");
 	}
 	else {
-		System.out.print(m+" is NOT Palidrome String");
+		System.out.print(str+" is NOT Palidrome String");
 	}   
    }
  }

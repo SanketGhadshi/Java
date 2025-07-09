@@ -2,7 +2,7 @@ package ImportantProgram;
 
 import java.util.Scanner;
 
-public class SpaceRemove_fromString {
+public class SpaceCount_fromString {
 
 	public static void main(String[] args) {
 		

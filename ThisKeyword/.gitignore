@@ -4,3 +4,7 @@
 /Invoke_Current_Class_Method.class
 /ThisKeyConstructerCall.class
 /ThisKeyConstructerCall1.class
+/Refer_to_Instance_Variable_When_Local_Variable_is_Same.class
+/Invoke_Current_Class_Constructor_Constructor_Chaining.class
+/Pass_this_as_Argument_to_Another_Method.class
+/Return_Current_Class_Instance.class

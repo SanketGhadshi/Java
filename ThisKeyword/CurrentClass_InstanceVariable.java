@@ -17,6 +17,7 @@ public class CurrentClass_InstanceVariable {
 	int rollno=10;
 	//System.out.println(this.rollno);
 	System.out.println(rollno+" "+name+" "+fee);
+	System.out.println(this.rollno+" "+this.name+" "+this.fee);
 }
 	public static void main(String[] args) {
 	 

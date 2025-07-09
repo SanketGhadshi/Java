@@ -2,11 +2,13 @@ package MethodCalling;
 
 public class DifferentClass {
 
-	public void test() { // Non static method
+	public void test() 
+	{ // Non static method
 		System.out.println (" test() Non static method in Different class");
 	}
 	
-	public static void test1() {      // Static method
+	public static void test1() 
+	{      // Static method
 		System.out.println("test1() Static method in Different class");
 	}
 
@@ -14,11 +16,11 @@ public class DifferentClass {
 	
 	DifferentClass zx=new DifferentClass();  //for calling method non static method
 		         zx.test();
-  DifferentClass.test1();    //calling method for Static Method of DifferentClass
+    DifferentClass.test1();    //calling method for Static Method of DifferentClass
         
 	 //Following method from different i.e SingleClass
     
-  SingleClass.test3();  //calling method for Static Method of Single Class
+    SingleClass.test3();  //calling method for Static Method of Single Class
     
 	 SingleClass z=new SingleClass();  //for calling method non static method
      z.test(); 

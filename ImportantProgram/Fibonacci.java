@@ -4,7 +4,8 @@ public class Fibonacci {
 
 	public static void main(String[] args) {
     int a,b,c;
-    a=0;b=3;
+    a=0;b=2;
+    
     
     System.out.print(a+" "+b);
     

@@ -8,11 +8,13 @@ public class Prime_Number {
 		int i=1;
 		int count = 0;
 		
-		while(i<=num) {
-			if(num%i==0) {
+		while(i<=num) 
+		{
+			if(num%i==0) 
+			{
 				count++;
 			}
-		i++;
+		        i++;
 		}
 		if(count==2) {
 		System.out.println("Prime Number");

@@ -10,7 +10,7 @@ public class StringLength_Without_LengthMethod {
 		System.out.println("Enter string :");
 		String s=sc.nextLine();
 		
-		char[]a= s.toCharArray();
+		char a[] = s.toCharArray();
 		
 		int count=0;
 		

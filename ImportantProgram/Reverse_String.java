@@ -19,10 +19,6 @@ public class Reverse_String {
         System.out.println(reversedString);
         
         System.out.println("Total no of character in string :" +count);
-        
-        
+            
     }
-	
-	
-
 }

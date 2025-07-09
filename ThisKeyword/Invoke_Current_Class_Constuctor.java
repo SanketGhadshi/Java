@@ -2,22 +2,21 @@ package ThisKeyword;
 
 public class Invoke_Current_Class_Constuctor {
 	
-	Invoke_Current_Class_Constuctor(){
-		//this(6); // this() is always 1st member of constuctor,otherwise show error
-		System.out.println(" Default Constuctor");
-		
-	}
-	
-	Invoke_Current_Class_Constuctor(int z){
-		this(); // this() is always 1st member of constuctor,otherwise show error
-		System.out.println(" Paramaterized Constuctor");
-	}
+	 // Default Constructor
+	Invoke_Current_Class_Constuctor() {
+        // this() must be the first statement in constructor if used otherwise gives error
+        System.out.println("Default Constructor");
+    }
 
-	public static void main(String[] args) { 
-		
-		// calling default constructor from paramaterized contructor	
-		
-		Invoke_Current_Class_Constuctor obj=new Invoke_Current_Class_Constuctor(3);
-	}
+    // Parameterized Constructor
+	Invoke_Current_Class_Constuctor(int z) {
+        this(); // Calls the default constructor first
+        System.out.println("Parameterized Constructor");
+    }
 
+    public static void main(String[] args) {
+        // Creating object using parameterized constructor
+        // It will internally call the default constructor because of this()
+    	Invoke_Current_Class_Constuctor obj = new Invoke_Current_Class_Constuctor(3);
+    }
 }
